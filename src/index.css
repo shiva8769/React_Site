@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-[32px];
+    }
+}
+
+@layer base {
+    h2 {
+        @apply text-[24px];
+    }
+}
+
+@layer base {
+    h3 {
+        @apply text-[18.72px];
+    }
+}
+
+@layer base {
+    h4 {
+        @apply text-[16px];
+    }
+}
+
+@layer base {
+    h5 {
+        @apply text-[13.28px];
+    }
+}
+
+@layer base {
+    h6 {
+        @apply text-[10.72px];
+    }
+}
+
+@layer base {
+    p {
+        @apply text-[16px];
+    }
+}
+
+@layer base {
+    a {
+        @apply text-blue-600
+                underline;
+    }
+}
+
+ul>li::marker{
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
